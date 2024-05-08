@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Binance Payment Cancellation</title>
+    
+    <style>
+         body{
+     background: #ececec;
+     margin: 0;
+     font-family: "Arial";
+    }
+    .box_d1 {
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.box_d2 {
+background: #fff;
+padding:40px 20px;
+max-width: 600px;
+width: 100%;
+text-align: center;
+border-radius: 15px;
+box-shadow: 3px 8px 22px rgba(0,0,0,0.1);
+}
+img{
+ max-width: 100%;
+ max-height: 100%;
+}
+p{
+  color: #555;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="box_d1">
+        <div class="box_d2">
+            {% load static %}
+    <!-- Displaying the image using the static file -->
+    <img src="{% static '/success_page.jpg' %}" alt="Payment success Image">
+    <!-- Replace '/timeout.jpeg' with the path to your actual image file -->
+    
+    <!-- Additional HTML content can be added here -->
+    </div>
+    </div>
+</body>
+</html>

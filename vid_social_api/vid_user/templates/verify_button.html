@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+</head>
+
+<body style="margin: 0; background: #ececec;">
+    <table class="table"
+        style=" overflow: hidden; margin:15px auto; font-size: 15px; font-family: Arial; border-collapse: collapse; max-width: 700px; width: 100%; background: #fff; ">
+        <tbody>
+            <tr>
+                <td
+                    style="border: none; padding: 15px 15px;  text-align: center; border-bottom: 3px solid #FF1A51;">
+                    <!--  background: #04377f; 
+                    <img src="img/logo.png" alt="" style="width: 50px;"> -->
+                    <img src="{{logo}}" alt="" style="width: 50px;">
+
+                </td>
+            </tr>
+            <tr>
+                <td style="border: none; padding: 10px 15px;">
+                   <div style="width:700px;">
+                              <p style="line-height: 23px;">
+                                Dear 
+                              <b>{{display_name}},</b>
+                              <br>
+                              <br>
+                              Thank you for registering. Your account is now active.
+                              <br>
+                              <br>
+                              Please click the button below to verify your email
+                              <br> <a href="{{ verification_link }}" style="margin-top: 15px; display: inline-block;  border-radius: 4px; padding:8px 10px; background: #FF1A51; color: #fff; text-decoration: none; font-size: 16px; font-weight: 600;">Verify Email</a>
+                              </p>
+                          </div>
+                </td>
+            </tr>
+           
+			 
+          
+            <tr>
+                <td style="border: none; padding:0px 15px;">
+                
+    <p style="line-height: 23px; font-weight: 600;">
+        Sincerely,   <br>
+        The VidSocial Team
+        
+    </p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="border: none; padding: 10px 15px; background: #FF1A51; color: #fff; text-align: center;">
+
+                    All Rights Reserved. Designed by VidSocial. 
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>

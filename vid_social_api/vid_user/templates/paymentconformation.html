@@ -1,0 +1,98 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Payment Confirmation</title>
+</head>
+
+<body style="margin: 0; background: #ececec;">
+    <table class="table"
+        style=" overflow: hidden; margin:15px auto; font-size: 15px; font-family: Arial; border-collapse: collapse; max-width: 700px; width: 100%; background: #fff; ">
+        <tbody>
+            <tr>
+                <td
+                    style="border: none; padding: 15px 15px;  text-align: center; border-bottom: 3px solid #FF1A51;">
+                    <!--  background: #04377f; -->
+                    <img src="{{logo}}" alt="" style="width: 50px;">
+                </td>
+            </tr>
+            <tr>
+                <td style="border: none; padding: 10px 15px;">
+                   <div style="width:700px;">
+                              <h2 style="text-align: center; font-size: 30px; ">Payment Confirmation
+                              </h2>
+                              <p style="line-height: 23px;">
+                                Dear 
+                              <b>{{worker_name}},</b>
+                              <br>
+                              <br>
+                              Your payment has been processed successfully.
+
+                              <br>
+                              <br>
+                              To view your payment confirmation receipt, Please click Here. <br> <a href="{{image_link}}" style="margin-top: 15px; display: inline-block;  border-radius: 4px; padding:8px 10px; background: #FF1A51; color: #fff; text-decoration: none; font-size: 16px; font-weight: 600;">Click Here</a>
+                              </p>
+                          </div>
+                </td>
+            </tr>
+           
+			 
+            <tr>
+                <td style="border: none; padding:0px 15px;">
+                    <h4 style="color: #000; margin-top:10px; margin-bottom: 0;  font-size: 18px;">Payment Details</h4>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="border: none; padding: 10px 15px;">
+                    <table style="width: 100%;">
+                        <tbody>
+                        
+                            
+                            
+                            <tr>
+                                 <td style="border: none; padding: 10px 0px; color: #000;   width: 40%; border-bottom: 1px solid #e1e1e1;">
+                                    Amount
+                                </td>
+								 <td style="border: none; padding: 10px 0px; color: #000;width: 40%; border-bottom: 1px solid #e1e1e1;">
+                                    {{payment_amount}}
+                                </td>
+                            </tr>
+                            <tr>
+                                 <td style="border: none; padding: 10px 0px; color: #000;   width: 40%; border-bottom: 1px solid #e1e1e1;">
+                                    Date
+                                </td>
+								 <td style="border: none; padding: 10px 0px; color: #000;    width: 40%; border-bottom: 1px solid #e1e1e1;">
+                                    {{create_date_str}}
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: none; padding:0px 15px;">
+                    <p style="line-height: 23px;">If you have any questions or concerns, Please don't hesitate to contact our support team.</p>
+    
+    <p style="line-height: 23px;">Thank you for choosing our service!</p>
+    
+    <p style="line-height: 23px; font-weight: 600;">Best regards,<br>
+        {{sponsor_name}}</p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="border: none; padding: 10px 15px; background: #FF1A51; color: #fff; text-align: center;">
+
+                    All Rights Reserved. Designed by VidSocial. 
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>

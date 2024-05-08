@@ -1,0 +1,742 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "vidapp",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://0.0.0.0:8000/"
+        }
+    ],
+    "components": {
+        "securitySchemes": {
+            "bearerAuth": {
+                "type": "http",
+                "scheme": "bearer"
+            },
+            "noauthAuth": {
+                "type": "http",
+                "scheme": "noauth"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "worker"
+        }
+    ],
+    "paths": {
+        "/vid_worker/worker_id_image/": {
+            "post": {
+                "tags": [
+                    "worker"
+                ],
+                "summary": "upload worker_id_image",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "email": "ravi@gmail.com"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_user/register": {
+            "post": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "Registraion",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "first_name": "admin1",
+                                    "last_name": "profile",
+                                    "date_of_birth": "2000-01-01",
+                                    "display_name": "admin1",
+                                    "gender": "female",
+                                    "email": "admin1@gmail.com",
+                                    "password": "123456",
+                                    "role_id": "admin",
+                                    "country_id": 1,
+                                    "identity_no": "jn5fs78y3jk",
+                                    "phone": "+919087654321"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_user/login": {
+            "post": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "update_mail_verification---",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "email": "admin@gmail.com",
+                                    "password": "123456"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "noauthAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_user/forget_password": {
+            "post": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "forget_password",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "email": "ravi@gmail.com"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "noauthAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_user/SponserPaymentNotification/1": {
+            "get": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "sponser payment notification",
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_user/AdminPaymentRequestStatus/": {
+            "post": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "admin payment request status",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": "integer",
+                                        "example": "1"
+                                    },
+                                    "Status": {
+                                        "type": "string",
+                                        "example": "paid"
+                                    },
+                                    "file": {
+                                        "type": "string",
+                                        "format": "binary"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_user/admin-payment-request/": {
+            "post": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "admin payment request",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "AdminId": {
+                                        "type": "integer",
+                                        "example": "2"
+                                    },
+                                    "AmountRequest": {
+                                        "type": "integer",
+                                        "example": "30"
+                                    },
+                                    "SponserBinanceId": {
+                                        "type": "integer",
+                                        "example": "1"
+                                    },
+                                    "SponserBankId": {
+                                        "type": "integer",
+                                        "example": "1"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_user/create-gift/": {
+            "post": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "create or update gift gallary",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "name": {
+                                        "type": "string",
+                                        "example": "rosec cccccc"
+                                    },
+                                    "coin": {
+                                        "type": "integer",
+                                        "example": "400"
+                                    },
+                                    "file": {
+                                        "type": "string",
+                                        "format": "binary"
+                                    },
+                                    "GiftId": {
+                                        "type": "integer",
+                                        "example": "1"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_user/add-coin-to-worker/": {
+            "post": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "admin gift coin to worker",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "WorkerId": 3,
+                                    "GiveCredit": 100,
+                                    "Reason": "good work"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_user/video-view/": {
+            "get": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "video view",
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_user/image-view/": {
+            "get": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "image view",
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_customer/send-gift/": {
+            "post": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "on live call send gift by user",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "call_id": 1,
+                                    "gift_name": "gdfgf",
+                                    "gift_coin": 545
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_customer/profile-detail/": {
+            "get": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "profile detail",
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_customer/check-coin/": {
+            "get": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "check current coin",
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_customer/customer-videocall-end/": {
+            "post": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "video call end",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "CallId": 10,
+                                    "duration": 601
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_customer/customer-videocall-start/": {
+            "post": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "video call start",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "receiver_id": 2
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_customer/create-review/": {
+            "post": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "create review api",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "WorkerId": 1,
+                                    "rating": "5",
+                                    "content": "nice call"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_customer/assign-fav-worker/": {
+            "post": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "assign fav worker",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "WorkerId": 2,
+                                    "Status": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_sponser/binance-accounts/": {
+            "get": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "binance account create update list",
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_sponser/BankDetail/": {
+            "get": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "bank account create update list",
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_sponser/WorkerRequestStatus/": {
+            "post": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "worker request status to sponser",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "WorkerId": 2,
+                                    "Status": "cancel"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_sponser/WorkerPaymentRequestStatus/": {
+            "post": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "worker payment request status",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "id": 1,
+                                    "Status": "cancel",
+                                    "TransactionId": null
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/vid_sponser/WorkerPaymentNotification/1": {
+            "get": {
+                "tags": [
+                    "General"
+                ],
+                "summary": "worker payment notification send",
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

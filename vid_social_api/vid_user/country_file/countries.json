@@ -1,0 +1,1986 @@
+[
+  {
+    "Name": "Albania",
+    "Currencies Code": "ALL",
+    "Flag": "data/alb.svg",
+    "Alpha2 Code": "AL",
+    "Calling Code": "355",
+    "country_id": 3
+  },
+  {
+    "Name": "Algeria",
+    "Currencies Code": "DZD",
+    "Flag": "data/dza.svg",
+    "Alpha2 Code": "DZ",
+    "Calling Code": "213",
+    "country_id": 4
+  },
+  {
+    "Name": "American Samoa",
+    "Currencies Code": "USD",
+    "Flag": "data/asm.svg",
+    "Alpha2 Code": "AS",
+    "Calling Code": "1684",
+    "country_id": 5
+  },
+  {
+    "Name": "Andorra",
+    "Currencies Code": "EUR",
+    "Flag": "data/and.svg",
+    "Alpha2 Code": "AD",
+    "Calling Code": "376",
+    "country_id": 6
+  },
+  {
+    "Name": "Angola",
+    "Currencies Code": "AOA",
+    "Flag": "data/ago.svg",
+    "Alpha2 Code": "AO",
+    "Calling Code": "244",
+    "country_id": 7
+  },
+  {
+    "Name": "Anguilla",
+    "Currencies Code": "XCD",
+    "Flag": "data/aia.svg",
+    "Alpha2 Code": "AI",
+    "Calling Code": "1264",
+    "country_id": 8
+  },
+  {
+    "Name": "Antarctica",
+    "Currencies Code": "AUD",
+    "Flag": "data/ata.svg",
+    "Alpha2 Code": "AQ",
+    "Calling Code": "672",
+    "country_id": 9
+  },
+  {
+    "Name": "Antigua and Barbuda",
+    "Currencies Code": "XCD",
+    "Flag": "data/atg.svg",
+    "Alpha2 Code": "AG",
+    "Calling Code": "1268",
+    "country_id": 10
+  },
+  {
+    "Name": "Argentina",
+    "Currencies Code": "ARS",
+    "Flag": "data/arg.svg",
+    "Alpha2 Code": "AR",
+    "Calling Code": "54",
+    "country_id": 11
+  },
+  {
+    "Name": "Armenia",
+    "Currencies Code": "AMD",
+    "Flag": "data/arm.svg",
+    "Alpha2 Code": "AM",
+    "Calling Code": "374",
+    "country_id": 12
+  },
+  {
+    "Name": "Aruba",
+    "Currencies Code": "AWG",
+    "Flag": "data/abw.svg",
+    "Alpha2 Code": "AW",
+    "Calling Code": "297",
+    "country_id": 13
+  },
+  {
+    "Name": "Australia",
+    "Currencies Code": "AUD",
+    "Flag": "data/aus.svg",
+    "Alpha2 Code": "AU",
+    "Calling Code": "61",
+    "country_id": 14
+  },
+  {
+    "Name": "Austria",
+    "Currencies Code": "EUR",
+    "Flag": "data/aut.svg",
+    "Alpha2 Code": "AT",
+    "Calling Code": "43",
+    "country_id": 15
+  },
+  {
+    "Name": "Azerbaijan",
+    "Currencies Code": "AZN",
+    "Flag": "data/aze.svg",
+    "Alpha2 Code": "AZ",
+    "Calling Code": "994",
+    "country_id": 16
+  },
+  {
+    "Name": "Bahamas",
+    "Currencies Code": "BSD",
+    "Flag": "data/bhs.svg",
+    "Alpha2 Code": "BS",
+    "Calling Code": "1242",
+    "country_id": 17
+  },
+  {
+    "Name": "Bahrain",
+    "Currencies Code": "BHD",
+    "Flag": "data/bhr.svg",
+    "Alpha2 Code": "BH",
+    "Calling Code": "973",
+    "country_id": 18
+  },
+  {
+    "Name": "Bangladesh",
+    "Currencies Code": "BDT",
+    "Flag": "data/bgd.svg",
+    "Alpha2 Code": "BD",
+    "Calling Code": "880",
+    "country_id": 19
+  },
+  {
+    "Name": "Barbados",
+    "Currencies Code": "BBD",
+    "Flag": "data/brb.svg",
+    "Alpha2 Code": "BB",
+    "Calling Code": "1246",
+    "country_id": 20
+  },
+  {
+    "Name": "Belarus",
+    "Currencies Code": "BYN",
+    "Flag": "data/blr.svg",
+    "Alpha2 Code": "BY",
+    "Calling Code": "375",
+    "country_id": 21
+  },
+  {
+    "Name": "Belgium",
+    "Currencies Code": "EUR",
+    "Flag": "data/bel.svg",
+    "Alpha2 Code": "BE",
+    "Calling Code": "32",
+    "country_id": 22
+  },
+  {
+    "Name": "Belize",
+    "Currencies Code": "BZD",
+    "Flag": "data/blz.svg",
+    "Alpha2 Code": "BZ",
+    "Calling Code": "501",
+    "country_id": 23
+  },
+  {
+    "Name": "Benin",
+    "Currencies Code": "XOF",
+    "Flag": "data/ben.svg",
+    "Alpha2 Code": "BJ",
+    "Calling Code": "229",
+    "country_id": 24
+  },
+  {
+    "Name": "Bermuda",
+    "Currencies Code": "BMD",
+    "Flag": "data/bmu.svg",
+    "Alpha2 Code": "BM",
+    "Calling Code": "1441",
+    "country_id": 25
+  },
+  {
+    "Name": "Bhutan",
+    "Currencies Code": "BTN",
+    "Flag": "data/btn.svg",
+    "Alpha2 Code": "BT",
+    "Calling Code": "975",
+    "country_id": 26
+  },
+  {
+    "Name": "Bolivia (Plurinational State of)",
+    "Currencies Code": "BOB",
+    "Flag": "data/bol.svg",
+    "Alpha2 Code": "BO",
+    "Calling Code": "591",
+    "country_id": 27
+  },
+  {
+    "Name": "Bonaire, Sint Eustatius and Saba",
+    "Currencies Code": "USD",
+    "Flag": "data/bes.svg",
+    "Alpha2 Code": "BQ",
+    "Calling Code": "5997",
+    "country_id": 28
+  },
+  {
+    "Name": "Bosnia and Herzegovina",
+    "Currencies Code": "BAM",
+    "Flag": "data/bih.svg",
+    "Alpha2 Code": "BA",
+    "Calling Code": "387",
+    "country_id": 29
+  },
+  {
+    "Name": "Botswana",
+    "Currencies Code": "BWP",
+    "Flag": "data/bwa.svg",
+    "Alpha2 Code": "BW",
+    "Calling Code": "267",
+    "country_id": 30
+  },
+  {
+    "Name": "Bouvet Island",
+    "Currencies Code": "NOK",
+    "Flag": "data/bvt.svg",
+    "Alpha2 Code": "BV",
+    "Calling Code": "",
+    "country_id": 31
+  },
+  {
+    "Name": "Brazil",
+    "Currencies Code": "BRL",
+    "Flag": "data/bra.svg",
+    "Alpha2 Code": "BR",
+    "Calling Code": "55",
+    "country_id": 32
+  },
+  {
+    "Name": "British Indian Ocean Territory",
+    "Currencies Code": "USD",
+    "Flag": "data/iot.svg",
+    "Alpha2 Code": "IO",
+    "Calling Code": "246",
+    "country_id": 33
+  },
+  {
+    "Name": "United States Minor Outlying Islands",
+    "Currencies Code": "USD",
+    "Flag": "data/umi.svg",
+    "Alpha2 Code": "UM",
+    "Calling Code": "",
+    "country_id": 34
+  },
+  {
+    "Name": "Virgin Islands (British)",
+    "Currencies Code": "USD",
+    "Flag": "data/vgb.svg",
+    "Alpha2 Code": "VG",
+    "Calling Code": "1284",
+    "country_id": 35
+  },
+  {
+    "Name": "Virgin Islands (U.S.)",
+    "Currencies Code": "USD",
+    "Flag": "data/vir.svg",
+    "Alpha2 Code": "VI",
+    "Calling Code": "1 340",
+    "country_id": 36
+  },
+  {
+    "Name": "Brunei Darussalam",
+    "Currencies Code": "BND",
+    "Flag": "data/brn.svg",
+    "Alpha2 Code": "BN",
+    "Calling Code": "673",
+    "country_id": 37
+  },
+  {
+    "Name": "Bulgaria",
+    "Currencies Code": "BGN",
+    "Flag": "data/bgr.svg",
+    "Alpha2 Code": "BG",
+    "Calling Code": "359",
+    "country_id": 38
+  },
+  {
+    "Name": "Burkina Faso",
+    "Currencies Code": "XOF",
+    "Flag": "data/bfa.svg",
+    "Alpha2 Code": "BF",
+    "Calling Code": "226",
+    "country_id": 39
+  },
+  {
+    "Name": "Burundi",
+    "Currencies Code": "BIF",
+    "Flag": "data/bdi.svg",
+    "Alpha2 Code": "BI",
+    "Calling Code": "257",
+    "country_id": 40
+  },
+  {
+    "Name": "Cambodia",
+    "Currencies Code": "KHR",
+    "Flag": "data/khm.svg",
+    "Alpha2 Code": "KH",
+    "Calling Code": "855",
+    "country_id": 41
+  },
+  {
+    "Name": "Cameroon",
+    "Currencies Code": "XAF",
+    "Flag": "data/cmr.svg",
+    "Alpha2 Code": "CM",
+    "Calling Code": "237",
+    "country_id": 42
+  },
+  {
+    "Name": "Canada",
+    "Currencies Code": "CAD",
+    "Flag": "data/can.svg",
+    "Alpha2 Code": "CA",
+    "Calling Code": "1",
+    "country_id": 43
+  },
+  {
+    "Name": "Cabo Verde",
+    "Currencies Code": "CVE",
+    "Flag": "data/cpv.svg",
+    "Alpha2 Code": "CV",
+    "Calling Code": "238",
+    "country_id": 44
+  },
+  {
+    "Name": "Cayman Islands",
+    "Currencies Code": "KYD",
+    "Flag": "data/cym.svg",
+    "Alpha2 Code": "KY",
+    "Calling Code": "1345",
+    "country_id": 45
+  },
+  {
+    "Name": "Central African Republic",
+    "Currencies Code": "XAF",
+    "Flag": "data/caf.svg",
+    "Alpha2 Code": "CF",
+    "Calling Code": "236",
+    "country_id": 46
+  },
+  {
+    "Name": "Chad",
+    "Currencies Code": "XAF",
+    "Flag": "data/tcd.svg",
+    "Alpha2 Code": "TD",
+    "Calling Code": "235",
+    "country_id": 47
+  },
+  {
+    "Name": "Chile",
+    "Currencies Code": "CLP",
+    "Flag": "data/chl.svg",
+    "Alpha2 Code": "CL",
+    "Calling Code": "56",
+    "country_id": 48
+  },
+  {
+    "Name": "China",
+    "Currencies Code": "CNY",
+    "Flag": "data/chn.svg",
+    "Alpha2 Code": "CN",
+    "Calling Code": "86",
+    "country_id": 49
+  },
+  {
+    "Name": "Christmas Island",
+    "Currencies Code": "AUD",
+    "Flag": "data/cxr.svg",
+    "Alpha2 Code": "CX",
+    "Calling Code": "61",
+    "country_id": 50
+  },
+  {
+    "Name": "Cocos (Keeling) Islands",
+    "Currencies Code": "AUD",
+    "Flag": "data/cck.svg",
+    "Alpha2 Code": "CC",
+    "Calling Code": "61",
+    "country_id": 51
+  },
+  {
+    "Name": "Colombia",
+    "Currencies Code": "COP",
+    "Flag": "data/col.svg",
+    "Alpha2 Code": "CO",
+    "Calling Code": "57",
+    "country_id": 52
+  },
+  {
+    "Name": "Comoros",
+    "Currencies Code": "KMF",
+    "Flag": "data/com.svg",
+    "Alpha2 Code": "KM",
+    "Calling Code": "269",
+    "country_id": 53
+  },
+  {
+    "Name": "Congo",
+    "Currencies Code": "XAF",
+    "Flag": "data/cog.svg",
+    "Alpha2 Code": "CG",
+    "Calling Code": "242",
+    "country_id": 54
+  },
+  {
+    "Name": "Congo (Democratic Republic of the)",
+    "Currencies Code": "CDF",
+    "Flag": "data/cod.svg",
+    "Alpha2 Code": "CD",
+    "Calling Code": "243",
+    "country_id": 55
+  },
+  {
+    "Name": "Cook Islands",
+    "Currencies Code": "NZD",
+    "Flag": "data/cok.svg",
+    "Alpha2 Code": "CK",
+    "Calling Code": "682",
+    "country_id": 56
+  },
+  {
+    "Name": "Costa Rica",
+    "Currencies Code": "CRC",
+    "Flag": "data/cri.svg",
+    "Alpha2 Code": "CR",
+    "Calling Code": "506",
+    "country_id": 57
+  },
+  {
+    "Name": "Croatia",
+    "Currencies Code": "HRK",
+    "Flag": "data/hrv.svg",
+    "Alpha2 Code": "HR",
+    "Calling Code": "385",
+    "country_id": 58
+  },
+  {
+    "Name": "Cuba",
+    "Currencies Code": "CUC",
+    "Flag": "data/cub.svg",
+    "Alpha2 Code": "CU",
+    "Calling Code": "53",
+    "country_id": 59
+  },
+  {
+    "Name": "Cura\u00e7ao",
+    "Currencies Code": "ANG",
+    "Flag": "data/cuw.svg",
+    "Alpha2 Code": "CW",
+    "Calling Code": "599",
+    "country_id": 60
+  },
+  {
+    "Name": "Cyprus",
+    "Currencies Code": "EUR",
+    "Flag": "data/cyp.svg",
+    "Alpha2 Code": "CY",
+    "Calling Code": "357",
+    "country_id": 61
+  },
+  {
+    "Name": "Czech Republic",
+    "Currencies Code": "CZK",
+    "Flag": "data/cze.svg",
+    "Alpha2 Code": "CZ",
+    "Calling Code": "420",
+    "country_id": 62
+  },
+  {
+    "Name": "Denmark",
+    "Currencies Code": "DKK",
+    "Flag": "data/dnk.svg",
+    "Alpha2 Code": "DK",
+    "Calling Code": "45",
+    "country_id": 63
+  },
+  {
+    "Name": "Djibouti",
+    "Currencies Code": "DJF",
+    "Flag": "data/dji.svg",
+    "Alpha2 Code": "DJ",
+    "Calling Code": "253",
+    "country_id": 64
+  },
+  {
+    "Name": "Dominica",
+    "Currencies Code": "XCD",
+    "Flag": "data/dma.svg",
+    "Alpha2 Code": "DM",
+    "Calling Code": "1767",
+    "country_id": 65
+  },
+  {
+    "Name": "Dominican Republic",
+    "Currencies Code": "DOP",
+    "Flag": "data/dom.svg",
+    "Alpha2 Code": "DO",
+    "Calling Code": "1809",
+    "country_id": 66
+  },
+  {
+    "Name": "Ecuador",
+    "Currencies Code": "USD",
+    "Flag": "data/ecu.svg",
+    "Alpha2 Code": "EC",
+    "Calling Code": "593",
+    "country_id": 67
+  },
+  {
+    "Name": "Egypt",
+    "Currencies Code": "EGP",
+    "Flag": "data/egy.svg",
+    "Alpha2 Code": "EG",
+    "Calling Code": "20",
+    "country_id": 68
+  },
+  {
+    "Name": "El Salvador",
+    "Currencies Code": "USD",
+    "Flag": "data/slv.svg",
+    "Alpha2 Code": "SV",
+    "Calling Code": "503",
+    "country_id": 69
+  },
+  {
+    "Name": "Equatorial Guinea",
+    "Currencies Code": "XAF",
+    "Flag": "data/gnq.svg",
+    "Alpha2 Code": "GQ",
+    "Calling Code": "240",
+    "country_id": 70
+  },
+  {
+    "Name": "Eritrea",
+    "Currencies Code": "ERN",
+    "Flag": "data/eri.svg",
+    "Alpha2 Code": "ER",
+    "Calling Code": "291",
+    "country_id": 71
+  },
+  {
+    "Name": "Estonia",
+    "Currencies Code": "EUR",
+    "Flag": "data/est.svg",
+    "Alpha2 Code": "EE",
+    "Calling Code": "372",
+    "country_id": 72
+  },
+  {
+    "Name": "Ethiopia",
+    "Currencies Code": "ETB",
+    "Flag": "data/eth.svg",
+    "Alpha2 Code": "ET",
+    "Calling Code": "251",
+    "country_id": 73
+  },
+  {
+    "Name": "Falkland Islands (Malvinas)",
+    "Currencies Code": "FKP",
+    "Flag": "data/flk.svg",
+    "Alpha2 Code": "FK",
+    "Calling Code": "500",
+    "country_id": 74
+  },
+  {
+    "Name": "Faroe Islands",
+    "Currencies Code": "DKK",
+    "Flag": "data/fro.svg",
+    "Alpha2 Code": "FO",
+    "Calling Code": "298",
+    "country_id": 75
+  },
+  {
+    "Name": "Fiji",
+    "Currencies Code": "FJD",
+    "Flag": "data/fji.svg",
+    "Alpha2 Code": "FJ",
+    "Calling Code": "679",
+    "country_id": 76
+  },
+  {
+    "Name": "Finland",
+    "Currencies Code": "EUR",
+    "Flag": "data/fin.svg",
+    "Alpha2 Code": "FI",
+    "Calling Code": "358",
+    "country_id": 77
+  },
+  {
+    "Name": "France",
+    "Currencies Code": "EUR",
+    "Flag": "data/fra.svg",
+    "Alpha2 Code": "FR",
+    "Calling Code": "33",
+    "country_id": 78
+  },
+  {
+    "Name": "French Guiana",
+    "Currencies Code": "EUR",
+    "Flag": "data/guf.svg",
+    "Alpha2 Code": "GF",
+    "Calling Code": "594",
+    "country_id": 79
+  },
+  {
+    "Name": "French Polynesia",
+    "Currencies Code": "XPF",
+    "Flag": "data/pyf.svg",
+    "Alpha2 Code": "PF",
+    "Calling Code": "689",
+    "country_id": 80
+  },
+  {
+    "Name": "French Southern Territories",
+    "Currencies Code": "EUR",
+    "Flag": "data/atf.svg",
+    "Alpha2 Code": "TF",
+    "Calling Code": "",
+    "country_id": 81
+  },
+  {
+    "Name": "Gabon",
+    "Currencies Code": "XAF",
+    "Flag": "data/gab.svg",
+    "Alpha2 Code": "GA",
+    "Calling Code": "241",
+    "country_id": 82
+  },
+  {
+    "Name": "Gambia",
+    "Currencies Code": "GMD",
+    "Flag": "data/gmb.svg",
+    "Alpha2 Code": "GM",
+    "Calling Code": "220",
+    "country_id": 83
+  },
+  {
+    "Name": "Georgia",
+    "Currencies Code": "GEL",
+    "Flag": "data/geo.svg",
+    "Alpha2 Code": "GE",
+    "Calling Code": "995",
+    "country_id": 84
+  },
+  {
+    "Name": "Germany",
+    "Currencies Code": "EUR",
+    "Flag": "data/deu.svg",
+    "Alpha2 Code": "DE",
+    "Calling Code": "49",
+    "country_id": 85
+  },
+  {
+    "Name": "Ghana",
+    "Currencies Code": "GHS",
+    "Flag": "data/gha.svg",
+    "Alpha2 Code": "GH",
+    "Calling Code": "233",
+    "country_id": 86
+  },
+  {
+    "Name": "Gibraltar",
+    "Currencies Code": "GIP",
+    "Flag": "data/gib.svg",
+    "Alpha2 Code": "GI",
+    "Calling Code": "350",
+    "country_id": 87
+  },
+  {
+    "Name": "Greece",
+    "Currencies Code": "EUR",
+    "Flag": "data/grc.svg",
+    "Alpha2 Code": "GR",
+    "Calling Code": "30",
+    "country_id": 88
+  },
+  {
+    "Name": "Greenland",
+    "Currencies Code": "DKK",
+    "Flag": "data/grl.svg",
+    "Alpha2 Code": "GL",
+    "Calling Code": "299",
+    "country_id": 89
+  },
+  {
+    "Name": "Grenada",
+    "Currencies Code": "XCD",
+    "Flag": "data/grd.svg",
+    "Alpha2 Code": "GD",
+    "Calling Code": "1473",
+    "country_id": 90
+  },
+  {
+    "Name": "Guadeloupe",
+    "Currencies Code": "EUR",
+    "Flag": "data/glp.svg",
+    "Alpha2 Code": "GP",
+    "Calling Code": "590",
+    "country_id": 91
+  },
+  {
+    "Name": "Guam",
+    "Currencies Code": "USD",
+    "Flag": "data/gum.svg",
+    "Alpha2 Code": "GU",
+    "Calling Code": "1671",
+    "country_id": 92
+  },
+  {
+    "Name": "Guatemala",
+    "Currencies Code": "GTQ",
+    "Flag": "data/gtm.svg",
+    "Alpha2 Code": "GT",
+    "Calling Code": "502",
+    "country_id": 93
+  },
+  {
+    "Name": "Guernsey",
+    "Currencies Code": "GBP",
+    "Flag": "data/ggy.svg",
+    "Alpha2 Code": "GG",
+    "Calling Code": "44",
+    "country_id": 94
+  },
+  {
+    "Name": "Guinea",
+    "Currencies Code": "GNF",
+    "Flag": "data/gin.svg",
+    "Alpha2 Code": "GN",
+    "Calling Code": "224",
+    "country_id": 95
+  },
+  {
+    "Name": "Guinea-Bissau",
+    "Currencies Code": "XOF",
+    "Flag": "data/gnb.svg",
+    "Alpha2 Code": "GW",
+    "Calling Code": "245",
+    "country_id": 96
+  },
+  {
+    "Name": "Guyana",
+    "Currencies Code": "GYD",
+    "Flag": "data/guy.svg",
+    "Alpha2 Code": "GY",
+    "Calling Code": "592",
+    "country_id": 97
+  },
+  {
+    "Name": "Haiti",
+    "Currencies Code": "HTG",
+    "Flag": "data/hti.svg",
+    "Alpha2 Code": "HT",
+    "Calling Code": "509",
+    "country_id": 98
+  },
+  {
+    "Name": "Heard Island and McDonald Islands",
+    "Currencies Code": "AUD",
+    "Flag": "data/hmd.svg",
+    "Alpha2 Code": "HM",
+    "Calling Code": "",
+    "country_id": 99
+  },
+  {
+    "Name": "Holy See",
+    "Currencies Code": "EUR",
+    "Flag": "data/vat.svg",
+    "Alpha2 Code": "VA",
+    "Calling Code": "379",
+    "country_id": 100
+  },
+  {
+    "Name": "Honduras",
+    "Currencies Code": "HNL",
+    "Flag": "data/hnd.svg",
+    "Alpha2 Code": "HN",
+    "Calling Code": "504",
+    "country_id": 101
+  },
+  {
+    "Name": "Hong Kong",
+    "Currencies Code": "HKD",
+    "Flag": "data/hkg.svg",
+    "Alpha2 Code": "HK",
+    "Calling Code": "852",
+    "country_id": 102
+  },
+  {
+    "Name": "Hungary",
+    "Currencies Code": "HUF",
+    "Flag": "data/hun.svg",
+    "Alpha2 Code": "HU",
+    "Calling Code": "36",
+    "country_id": 103
+  },
+  {
+    "Name": "Iceland",
+    "Currencies Code": "ISK",
+    "Flag": "data/isl.svg",
+    "Alpha2 Code": "IS",
+    "Calling Code": "354",
+    "country_id": 104
+  },
+  {
+    "Name": "India",
+    "Currencies Code": "INR",
+    "Flag": "data/ind.svg",
+    "Alpha2 Code": "IN",
+    "Calling Code": "91",
+    "country_id": 105
+  },
+  {
+    "Name": "Indonesia",
+    "Currencies Code": "IDR",
+    "Flag": "data/idn.svg",
+    "Alpha2 Code": "ID",
+    "Calling Code": "62",
+    "country_id": 106
+  },
+  {
+    "Name": "C\u00f4te d'Ivoire",
+    "Currencies Code": "XOF",
+    "Flag": "data/civ.svg",
+    "Alpha2 Code": "CI",
+    "Calling Code": "225",
+    "country_id": 107
+  },
+  {
+    "Name": "Iran (Islamic Republic of)",
+    "Currencies Code": "IRR",
+    "Flag": "data/irn.svg",
+    "Alpha2 Code": "IR",
+    "Calling Code": "98",
+    "country_id": 108
+  },
+  {
+    "Name": "Iraq",
+    "Currencies Code": "IQD",
+    "Flag": "data/irq.svg",
+    "Alpha2 Code": "IQ",
+    "Calling Code": "964",
+    "country_id": 109
+  },
+  {
+    "Name": "Ireland",
+    "Currencies Code": "EUR",
+    "Flag": "data/irl.svg",
+    "Alpha2 Code": "IE",
+    "Calling Code": "353",
+    "country_id": 110
+  },
+  {
+    "Name": "Isle of Man",
+    "Currencies Code": "GBP",
+    "Flag": "data/imn.svg",
+    "Alpha2 Code": "IM",
+    "Calling Code": "44",
+    "country_id": 111
+  },
+  {
+    "Name": "Israel",
+    "Currencies Code": "ILS",
+    "Flag": "data/isr.svg",
+    "Alpha2 Code": "IL",
+    "Calling Code": "972",
+    "country_id": 112
+  },
+  {
+    "Name": "Italy",
+    "Currencies Code": "EUR",
+    "Flag": "data/ita.svg",
+    "Alpha2 Code": "IT",
+    "Calling Code": "39",
+    "country_id": 113
+  },
+  {
+    "Name": "Jamaica",
+    "Currencies Code": "JMD",
+    "Flag": "data/jam.svg",
+    "Alpha2 Code": "JM",
+    "Calling Code": "1876",
+    "country_id": 114
+  },
+  {
+    "Name": "Japan",
+    "Currencies Code": "JPY",
+    "Flag": "data/jpn.svg",
+    "Alpha2 Code": "JP",
+    "Calling Code": "81",
+    "country_id": 115
+  },
+  {
+    "Name": "Jersey",
+    "Currencies Code": "GBP",
+    "Flag": "data/jey.svg",
+    "Alpha2 Code": "JE",
+    "Calling Code": "44",
+    "country_id": 116
+  },
+  {
+    "Name": "Jordan",
+    "Currencies Code": "JOD",
+    "Flag": "data/jor.svg",
+    "Alpha2 Code": "JO",
+    "Calling Code": "962",
+    "country_id": 117
+  },
+  {
+    "Name": "Kazakhstan",
+    "Currencies Code": "KZT",
+    "Flag": "data/kaz.svg",
+    "Alpha2 Code": "KZ",
+    "Calling Code": "76",
+    "country_id": 118
+  },
+  {
+    "Name": "Kenya",
+    "Currencies Code": "KES",
+    "Flag": "data/ken.svg",
+    "Alpha2 Code": "KE",
+    "Calling Code": "254",
+    "country_id": 119
+  },
+  {
+    "Name": "Kiribati",
+    "Currencies Code": "AUD",
+    "Flag": "data/kir.svg",
+    "Alpha2 Code": "KI",
+    "Calling Code": "686",
+    "country_id": 120
+  },
+  {
+    "Name": "Kuwait",
+    "Currencies Code": "KWD",
+    "Flag": "data/kwt.svg",
+    "Alpha2 Code": "KW",
+    "Calling Code": "965",
+    "country_id": 121
+  },
+  {
+    "Name": "Kyrgyzstan",
+    "Currencies Code": "KGS",
+    "Flag": "data/kgz.svg",
+    "Alpha2 Code": "KG",
+    "Calling Code": "996",
+    "country_id": 122
+  },
+  {
+    "Name": "Lao People's Democratic Republic",
+    "Currencies Code": "LAK",
+    "Flag": "data/lao.svg",
+    "Alpha2 Code": "LA",
+    "Calling Code": "856",
+    "country_id": 123
+  },
+  {
+    "Name": "Latvia",
+    "Currencies Code": "EUR",
+    "Flag": "data/lva.svg",
+    "Alpha2 Code": "LV",
+    "Calling Code": "371",
+    "country_id": 124
+  },
+  {
+    "Name": "Lebanon",
+    "Currencies Code": "LBP",
+    "Flag": "data/lbn.svg",
+    "Alpha2 Code": "LB",
+    "Calling Code": "961",
+    "country_id": 125
+  },
+  {
+    "Name": "Lesotho",
+    "Currencies Code": "LSL",
+    "Flag": "data/lso.svg",
+    "Alpha2 Code": "LS",
+    "Calling Code": "266",
+    "country_id": 126
+  },
+  {
+    "Name": "Liberia",
+    "Currencies Code": "LRD",
+    "Flag": "data/lbr.svg",
+    "Alpha2 Code": "LR",
+    "Calling Code": "231",
+    "country_id": 127
+  },
+  {
+    "Name": "Libya",
+    "Currencies Code": "LYD",
+    "Flag": "data/lby.svg",
+    "Alpha2 Code": "LY",
+    "Calling Code": "218",
+    "country_id": 128
+  },
+  {
+    "Name": "Liechtenstein",
+    "Currencies Code": "CHF",
+    "Flag": "data/lie.svg",
+    "Alpha2 Code": "LI",
+    "Calling Code": "423",
+    "country_id": 129
+  },
+  {
+    "Name": "Lithuania",
+    "Currencies Code": "EUR",
+    "Flag": "data/ltu.svg",
+    "Alpha2 Code": "LT",
+    "Calling Code": "370",
+    "country_id": 130
+  },
+  {
+    "Name": "Luxembourg",
+    "Currencies Code": "EUR",
+    "Flag": "data/lux.svg",
+    "Alpha2 Code": "LU",
+    "Calling Code": "352",
+    "country_id": 131
+  },
+  {
+    "Name": "Macao",
+    "Currencies Code": "MOP",
+    "Flag": "data/mac.svg",
+    "Alpha2 Code": "MO",
+    "Calling Code": "853",
+    "country_id": 132
+  },
+  {
+    "Name": "Macedonia (the former Yugoslav Republic of)",
+    "Currencies Code": "MKD",
+    "Flag": "data/mkd.svg",
+    "Alpha2 Code": "MK",
+    "Calling Code": "389",
+    "country_id": 133
+  },
+  {
+    "Name": "Madagascar",
+    "Currencies Code": "MGA",
+    "Flag": "data/mdg.svg",
+    "Alpha2 Code": "MG",
+    "Calling Code": "261",
+    "country_id": 134
+  },
+  {
+    "Name": "Malawi",
+    "Currencies Code": "MWK",
+    "Flag": "data/mwi.svg",
+    "Alpha2 Code": "MW",
+    "Calling Code": "265",
+    "country_id": 135
+  },
+  {
+    "Name": "Malaysia",
+    "Currencies Code": "MYR",
+    "Flag": "data/mys.svg",
+    "Alpha2 Code": "MY",
+    "Calling Code": "60",
+    "country_id": 136
+  },
+  {
+    "Name": "Maldives",
+    "Currencies Code": "MVR",
+    "Flag": "data/mdv.svg",
+    "Alpha2 Code": "MV",
+    "Calling Code": "960",
+    "country_id": 137
+  },
+  {
+    "Name": "Mali",
+    "Currencies Code": "XOF",
+    "Flag": "data/mli.svg",
+    "Alpha2 Code": "ML",
+    "Calling Code": "223",
+    "country_id": 138
+  },
+  {
+    "Name": "Malta",
+    "Currencies Code": "EUR",
+    "Flag": "data/mlt.svg",
+    "Alpha2 Code": "MT",
+    "Calling Code": "356",
+    "country_id": 139
+  },
+  {
+    "Name": "Marshall Islands",
+    "Currencies Code": "USD",
+    "Flag": "data/mhl.svg",
+    "Alpha2 Code": "MH",
+    "Calling Code": "692",
+    "country_id": 140
+  },
+  {
+    "Name": "Martinique",
+    "Currencies Code": "EUR",
+    "Flag": "data/mtq.svg",
+    "Alpha2 Code": "MQ",
+    "Calling Code": "596",
+    "country_id": 141
+  },
+  {
+    "Name": "Mauritania",
+    "Currencies Code": "MRO",
+    "Flag": "data/mrt.svg",
+    "Alpha2 Code": "MR",
+    "Calling Code": "222",
+    "country_id": 142
+  },
+  {
+    "Name": "Mauritius",
+    "Currencies Code": "MUR",
+    "Flag": "data/mus.svg",
+    "Alpha2 Code": "MU",
+    "Calling Code": "230",
+    "country_id": 143
+  },
+  {
+    "Name": "Mayotte",
+    "Currencies Code": "EUR",
+    "Flag": "data/myt.svg",
+    "Alpha2 Code": "YT",
+    "Calling Code": "262",
+    "country_id": 144
+  },
+  {
+    "Name": "Mexico",
+    "Currencies Code": "MXN",
+    "Flag": "data/mex.svg",
+    "Alpha2 Code": "MX",
+    "Calling Code": "52",
+    "country_id": 145
+  },
+  {
+    "Name": "Micronesia (Federated States of)",
+    "Currencies Code": "USD",
+    "Flag": "data/fsm.svg",
+    "Alpha2 Code": "FM",
+    "Calling Code": "691",
+    "country_id": 146
+  },
+  {
+    "Name": "Moldova (Republic of)",
+    "Currencies Code": "MDL",
+    "Flag": "data/mda.svg",
+    "Alpha2 Code": "MD",
+    "Calling Code": "373",
+    "country_id": 147
+  },
+  {
+    "Name": "Monaco",
+    "Currencies Code": "EUR",
+    "Flag": "data/mco.svg",
+    "Alpha2 Code": "MC",
+    "Calling Code": "377",
+    "country_id": 148
+  },
+  {
+    "Name": "Mongolia",
+    "Currencies Code": "MNT",
+    "Flag": "data/mng.svg",
+    "Alpha2 Code": "MN",
+    "Calling Code": "976",
+    "country_id": 149
+  },
+  {
+    "Name": "Montenegro",
+    "Currencies Code": "EUR",
+    "Flag": "data/mne.svg",
+    "Alpha2 Code": "ME",
+    "Calling Code": "382",
+    "country_id": 150
+  },
+  {
+    "Name": "Montserrat",
+    "Currencies Code": "XCD",
+    "Flag": "data/msr.svg",
+    "Alpha2 Code": "MS",
+    "Calling Code": "1664",
+    "country_id": 151
+  },
+  {
+    "Name": "Morocco",
+    "Currencies Code": "MAD",
+    "Flag": "data/mar.svg",
+    "Alpha2 Code": "MA",
+    "Calling Code": "212",
+    "country_id": 152
+  },
+  {
+    "Name": "Mozambique",
+    "Currencies Code": "MZN",
+    "Flag": "data/moz.svg",
+    "Alpha2 Code": "MZ",
+    "Calling Code": "258",
+    "country_id": 153
+  },
+  {
+    "Name": "Myanmar",
+    "Currencies Code": "MMK",
+    "Flag": "data/mmr.svg",
+    "Alpha2 Code": "MM",
+    "Calling Code": "95",
+    "country_id": 154
+  },
+  {
+    "Name": "Namibia",
+    "Currencies Code": "NAD",
+    "Flag": "data/nam.svg",
+    "Alpha2 Code": "NA",
+    "Calling Code": "264",
+    "country_id": 155
+  },
+  {
+    "Name": "Nauru",
+    "Currencies Code": "AUD",
+    "Flag": "data/nru.svg",
+    "Alpha2 Code": "NR",
+    "Calling Code": "674",
+    "country_id": 156
+  },
+  {
+    "Name": "Nepal",
+    "Currencies Code": "NPR",
+    "Flag": "data/npl.svg",
+    "Alpha2 Code": "NP",
+    "Calling Code": "977",
+    "country_id": 157
+  },
+  {
+    "Name": "Netherlands",
+    "Currencies Code": "EUR",
+    "Flag": "data/nld.svg",
+    "Alpha2 Code": "NL",
+    "Calling Code": "31",
+    "country_id": 158
+  },
+  {
+    "Name": "New Caledonia",
+    "Currencies Code": "XPF",
+    "Flag": "data/ncl.svg",
+    "Alpha2 Code": "NC",
+    "Calling Code": "687",
+    "country_id": 159
+  },
+  {
+    "Name": "New Zealand",
+    "Currencies Code": "NZD",
+    "Flag": "data/nzl.svg",
+    "Alpha2 Code": "NZ",
+    "Calling Code": "64",
+    "country_id": 160
+  },
+  {
+    "Name": "Nicaragua",
+    "Currencies Code": "NIO",
+    "Flag": "data/nic.svg",
+    "Alpha2 Code": "NI",
+    "Calling Code": "505",
+    "country_id": 161
+  },
+  {
+    "Name": "Niger",
+    "Currencies Code": "XOF",
+    "Flag": "data/ner.svg",
+    "Alpha2 Code": "NE",
+    "Calling Code": "227",
+    "country_id": 162
+  },
+  {
+    "Name": "Nigeria",
+    "Currencies Code": "NGN",
+    "Flag": "data/nga.svg",
+    "Alpha2 Code": "NG",
+    "Calling Code": "234",
+    "country_id": 163
+  },
+  {
+    "Name": "Niue",
+    "Currencies Code": "NZD",
+    "Flag": "data/niu.svg",
+    "Alpha2 Code": "NU",
+    "Calling Code": "683",
+    "country_id": 164
+  },
+  {
+    "Name": "Norfolk Island",
+    "Currencies Code": "AUD",
+    "Flag": "data/nfk.svg",
+    "Alpha2 Code": "NF",
+    "Calling Code": "672",
+    "country_id": 165
+  },
+  {
+    "Name": "Korea (Democratic People's Republic of)",
+    "Currencies Code": "KPW",
+    "Flag": "data/prk.svg",
+    "Alpha2 Code": "KP",
+    "Calling Code": "850",
+    "country_id": 166
+  },
+  {
+    "Name": "Northern Mariana Islands",
+    "Currencies Code": "USD",
+    "Flag": "data/mnp.svg",
+    "Alpha2 Code": "MP",
+    "Calling Code": "1670",
+    "country_id": 167
+  },
+  {
+    "Name": "Norway",
+    "Currencies Code": "NOK",
+    "Flag": "data/nor.svg",
+    "Alpha2 Code": "NO",
+    "Calling Code": "47",
+    "country_id": 168
+  },
+  {
+    "Name": "Oman",
+    "Currencies Code": "OMR",
+    "Flag": "data/omn.svg",
+    "Alpha2 Code": "OM",
+    "Calling Code": "968",
+    "country_id": 169
+  },
+  {
+    "Name": "Pakistan",
+    "Currencies Code": "PKR",
+    "Flag": "data/pak.svg",
+    "Alpha2 Code": "PK",
+    "Calling Code": "92",
+    "country_id": 170
+  },
+  {
+    "Name": "Palau",
+    "Currencies Code": "(none)",
+    "Flag": "data/plw.svg",
+    "Alpha2 Code": "PW",
+    "Calling Code": "680",
+    "country_id": 171
+  },
+  {
+    "Name": "Palestine, State of",
+    "Currencies Code": "ILS",
+    "Flag": "data/pse.svg",
+    "Alpha2 Code": "PS",
+    "Calling Code": "970",
+    "country_id": 172
+  },
+  {
+    "Name": "Panama",
+    "Currencies Code": "PAB",
+    "Flag": "data/pan.svg",
+    "Alpha2 Code": "PA",
+    "Calling Code": "507",
+    "country_id": 173
+  },
+  {
+    "Name": "Papua New Guinea",
+    "Currencies Code": "PGK",
+    "Flag": "data/png.svg",
+    "Alpha2 Code": "PG",
+    "Calling Code": "675",
+    "country_id": 174
+  },
+  {
+    "Name": "Paraguay",
+    "Currencies Code": "PYG",
+    "Flag": "data/pry.svg",
+    "Alpha2 Code": "PY",
+    "Calling Code": "595",
+    "country_id": 175
+  },
+  {
+    "Name": "Peru",
+    "Currencies Code": "PEN",
+    "Flag": "data/per.svg",
+    "Alpha2 Code": "PE",
+    "Calling Code": "51",
+    "country_id": 176
+  },
+  {
+    "Name": "Philippines",
+    "Currencies Code": "PHP",
+    "Flag": "data/phl.svg",
+    "Alpha2 Code": "PH",
+    "Calling Code": "63",
+    "country_id": 177
+  },
+  {
+    "Name": "Pitcairn",
+    "Currencies Code": "NZD",
+    "Flag": "data/pcn.svg",
+    "Alpha2 Code": "PN",
+    "Calling Code": "64",
+    "country_id": 178
+  },
+  {
+    "Name": "Poland",
+    "Currencies Code": "PLN",
+    "Flag": "data/pol.svg",
+    "Alpha2 Code": "PL",
+    "Calling Code": "48",
+    "country_id": 179
+  },
+  {
+    "Name": "Portugal",
+    "Currencies Code": "EUR",
+    "Flag": "data/prt.svg",
+    "Alpha2 Code": "PT",
+    "Calling Code": "351",
+    "country_id": 180
+  },
+  {
+    "Name": "Puerto Rico",
+    "Currencies Code": "USD",
+    "Flag": "data/pri.svg",
+    "Alpha2 Code": "PR",
+    "Calling Code": "1787",
+    "country_id": 181
+  },
+  {
+    "Name": "Qatar",
+    "Currencies Code": "QAR",
+    "Flag": "data/qat.svg",
+    "Alpha2 Code": "QA",
+    "Calling Code": "974",
+    "country_id": 182
+  },
+  {
+    "Name": "Republic of Kosovo",
+    "Currencies Code": "EUR",
+    "Flag": "data/kos.svg",
+    "Alpha2 Code": "XK",
+    "Calling Code": "383",
+    "country_id": 183
+  },
+  {
+    "Name": "R\u00e9union",
+    "Currencies Code": "EUR",
+    "Flag": "data/reu.svg",
+    "Alpha2 Code": "RE",
+    "Calling Code": "262",
+    "country_id": 184
+  },
+  {
+    "Name": "Romania",
+    "Currencies Code": "RON",
+    "Flag": "data/rou.svg",
+    "Alpha2 Code": "RO",
+    "Calling Code": "40",
+    "country_id": 185
+  },
+  {
+    "Name": "Russian Federation",
+    "Currencies Code": "RUB",
+    "Flag": "data/rus.svg",
+    "Alpha2 Code": "RU",
+    "Calling Code": "7",
+    "country_id": 186
+  },
+  {
+    "Name": "Rwanda",
+    "Currencies Code": "RWF",
+    "Flag": "data/rwa.svg",
+    "Alpha2 Code": "RW",
+    "Calling Code": "250",
+    "country_id": 187
+  },
+  {
+    "Name": "Saint Barth\u00e9lemy",
+    "Currencies Code": "EUR",
+    "Flag": "data/blm.svg",
+    "Alpha2 Code": "BL",
+    "Calling Code": "590",
+    "country_id": 188
+  },
+  {
+    "Name": "Saint Helena, Ascension and Tristan da Cunha",
+    "Currencies Code": "SHP",
+    "Flag": "data/shn.svg",
+    "Alpha2 Code": "SH",
+    "Calling Code": "290",
+    "country_id": 189
+  },
+  {
+    "Name": "Saint Kitts and Nevis",
+    "Currencies Code": "XCD",
+    "Flag": "data/kna.svg",
+    "Alpha2 Code": "KN",
+    "Calling Code": "1869",
+    "country_id": 190
+  },
+  {
+    "Name": "Saint Lucia",
+    "Currencies Code": "XCD",
+    "Flag": "data/lca.svg",
+    "Alpha2 Code": "LC",
+    "Calling Code": "1758",
+    "country_id": 191
+  },
+  {
+    "Name": "Saint Martin (French part)",
+    "Currencies Code": "EUR",
+    "Flag": "data/maf.svg",
+    "Alpha2 Code": "MF",
+    "Calling Code": "590",
+    "country_id": 192
+  },
+  {
+    "Name": "Saint Pierre and Miquelon",
+    "Currencies Code": "EUR",
+    "Flag": "data/spm.svg",
+    "Alpha2 Code": "PM",
+    "Calling Code": "508",
+    "country_id": 193
+  },
+  {
+    "Name": "Saint Vincent and the Grenadines",
+    "Currencies Code": "XCD",
+    "Flag": "data/vct.svg",
+    "Alpha2 Code": "VC",
+    "Calling Code": "1784",
+    "country_id": 194
+  },
+  {
+    "Name": "Samoa",
+    "Currencies Code": "WST",
+    "Flag": "data/wsm.svg",
+    "Alpha2 Code": "WS",
+    "Calling Code": "685",
+    "country_id": 195
+  },
+  {
+    "Name": "San Marino",
+    "Currencies Code": "EUR",
+    "Flag": "data/smr.svg",
+    "Alpha2 Code": "SM",
+    "Calling Code": "378",
+    "country_id": 196
+  },
+  {
+    "Name": "Sao Tome and Principe",
+    "Currencies Code": "STD",
+    "Flag": "data/stp.svg",
+    "Alpha2 Code": "ST",
+    "Calling Code": "239",
+    "country_id": 197
+  },
+  {
+    "Name": "Saudi Arabia",
+    "Currencies Code": "SAR",
+    "Flag": "data/sau.svg",
+    "Alpha2 Code": "SA",
+    "Calling Code": "966",
+    "country_id": 198
+  },
+  {
+    "Name": "Senegal",
+    "Currencies Code": "XOF",
+    "Flag": "data/sen.svg",
+    "Alpha2 Code": "SN",
+    "Calling Code": "221",
+    "country_id": 199
+  },
+  {
+    "Name": "Serbia",
+    "Currencies Code": "RSD",
+    "Flag": "data/srb.svg",
+    "Alpha2 Code": "RS",
+    "Calling Code": "381",
+    "country_id": 200
+  },
+  {
+    "Name": "Seychelles",
+    "Currencies Code": "SCR",
+    "Flag": "data/syc.svg",
+    "Alpha2 Code": "SC",
+    "Calling Code": "248",
+    "country_id": 201
+  },
+  {
+    "Name": "Sierra Leone",
+    "Currencies Code": "SLL",
+    "Flag": "data/sle.svg",
+    "Alpha2 Code": "SL",
+    "Calling Code": "232",
+    "country_id": 202
+  },
+  {
+    "Name": "Singapore",
+    "Currencies Code": "BND",
+    "Flag": "data/sgp.svg",
+    "Alpha2 Code": "SG",
+    "Calling Code": "65",
+    "country_id": 203
+  },
+  {
+    "Name": "Sint Maarten (Dutch part)",
+    "Currencies Code": "ANG",
+    "Flag": "data/sxm.svg",
+    "Alpha2 Code": "SX",
+    "Calling Code": "1721",
+    "country_id": 204
+  },
+  {
+    "Name": "Slovakia",
+    "Currencies Code": "EUR",
+    "Flag": "data/svk.svg",
+    "Alpha2 Code": "SK",
+    "Calling Code": "421",
+    "country_id": 205
+  },
+  {
+    "Name": "Slovenia",
+    "Currencies Code": "EUR",
+    "Flag": "data/svn.svg",
+    "Alpha2 Code": "SI",
+    "Calling Code": "386",
+    "country_id": 206
+  },
+  {
+    "Name": "Solomon Islands",
+    "Currencies Code": "SBD",
+    "Flag": "data/slb.svg",
+    "Alpha2 Code": "SB",
+    "Calling Code": "677",
+    "country_id": 207
+  },
+  {
+    "Name": "Somalia",
+    "Currencies Code": "SOS",
+    "Flag": "data/som.svg",
+    "Alpha2 Code": "SO",
+    "Calling Code": "252",
+    "country_id": 208
+  },
+  {
+    "Name": "South Africa",
+    "Currencies Code": "ZAR",
+    "Flag": "data/zaf.svg",
+    "Alpha2 Code": "ZA",
+    "Calling Code": "27",
+    "country_id": 209
+  },
+  {
+    "Name": "South Georgia and the South Sandwich Islands",
+    "Currencies Code": "GBP",
+    "Flag": "data/sgs.svg",
+    "Alpha2 Code": "GS",
+    "Calling Code": "500",
+    "country_id": 210
+  },
+  {
+    "Name": "Korea (Republic of)",
+    "Currencies Code": "KRW",
+    "Flag": "data/kor.svg",
+    "Alpha2 Code": "KR",
+    "Calling Code": "82",
+    "country_id": 211
+  },
+  {
+    "Name": "South Sudan",
+    "Currencies Code": "SSP",
+    "Flag": "data/ssd.svg",
+    "Alpha2 Code": "SS",
+    "Calling Code": "211",
+    "country_id": 212
+  },
+  {
+    "Name": "Spain",
+    "Currencies Code": "EUR",
+    "Flag": "data/esp.svg",
+    "Alpha2 Code": "ES",
+    "Calling Code": "34",
+    "country_id": 213
+  },
+  {
+    "Name": "Sri Lanka",
+    "Currencies Code": "LKR",
+    "Flag": "data/lka.svg",
+    "Alpha2 Code": "LK",
+    "Calling Code": "94",
+    "country_id": 214
+  },
+  {
+    "Name": "Sudan",
+    "Currencies Code": "SDG",
+    "Flag": "data/sdn.svg",
+    "Alpha2 Code": "SD",
+    "Calling Code": "249",
+    "country_id": 215
+  },
+  {
+    "Name": "Suriname",
+    "Currencies Code": "SRD",
+    "Flag": "data/sur.svg",
+    "Alpha2 Code": "SR",
+    "Calling Code": "597",
+    "country_id": 216
+  },
+  {
+    "Name": "Svalbard and Jan Mayen",
+    "Currencies Code": "NOK",
+    "Flag": "data/sjm.svg",
+    "Alpha2 Code": "SJ",
+    "Calling Code": "4779",
+    "country_id": 217
+  },
+  {
+    "Name": "Swaziland",
+    "Currencies Code": "SZL",
+    "Flag": "data/swz.svg",
+    "Alpha2 Code": "SZ",
+    "Calling Code": "268",
+    "country_id": 218
+  },
+  {
+    "Name": "Sweden",
+    "Currencies Code": "SEK",
+    "Flag": "data/swe.svg",
+    "Alpha2 Code": "SE",
+    "Calling Code": "46",
+    "country_id": 219
+  },
+  {
+    "Name": "Switzerland",
+    "Currencies Code": "CHF",
+    "Flag": "data/che.svg",
+    "Alpha2 Code": "CH",
+    "Calling Code": "41",
+    "country_id": 220
+  },
+  {
+    "Name": "Syrian Arab Republic",
+    "Currencies Code": "SYP",
+    "Flag": "data/syr.svg",
+    "Alpha2 Code": "SY",
+    "Calling Code": "963",
+    "country_id": 221
+  },
+  {
+    "Name": "Taiwan",
+    "Currencies Code": "TWD",
+    "Flag": "data/twn.svg",
+    "Alpha2 Code": "TW",
+    "Calling Code": "886",
+    "country_id": 222
+  },
+  {
+    "Name": "Tajikistan",
+    "Currencies Code": "TJS",
+    "Flag": "data/tjk.svg",
+    "Alpha2 Code": "TJ",
+    "Calling Code": "992",
+    "country_id": 223
+  },
+  {
+    "Name": "Tanzania, United Republic of",
+    "Currencies Code": "TZS",
+    "Flag": "data/tza.svg",
+    "Alpha2 Code": "TZ",
+    "Calling Code": "255",
+    "country_id": 224
+  },
+  {
+    "Name": "Thailand",
+    "Currencies Code": "THB",
+    "Flag": "data/tha.svg",
+    "Alpha2 Code": "TH",
+    "Calling Code": "66",
+    "country_id": 225
+  },
+  {
+    "Name": "Timor-Leste",
+    "Currencies Code": "USD",
+    "Flag": "data/tls.svg",
+    "Alpha2 Code": "TL",
+    "Calling Code": "670",
+    "country_id": 226
+  },
+  {
+    "Name": "Togo",
+    "Currencies Code": "XOF",
+    "Flag": "data/tgo.svg",
+    "Alpha2 Code": "TG",
+    "Calling Code": "228",
+    "country_id": 227
+  },
+  {
+    "Name": "Tokelau",
+    "Currencies Code": "NZD",
+    "Flag": "data/tkl.svg",
+    "Alpha2 Code": "TK",
+    "Calling Code": "690",
+    "country_id": 228
+  },
+  {
+    "Name": "Tonga",
+    "Currencies Code": "TOP",
+    "Flag": "data/ton.svg",
+    "Alpha2 Code": "TO",
+    "Calling Code": "676",
+    "country_id": 229
+  },
+  {
+    "Name": "Trinidad and Tobago",
+    "Currencies Code": "TTD",
+    "Flag": "data/tto.svg",
+    "Alpha2 Code": "TT",
+    "Calling Code": "1868",
+    "country_id": 230
+  },
+  {
+    "Name": "Tunisia",
+    "Currencies Code": "TND",
+    "Flag": "data/tun.svg",
+    "Alpha2 Code": "TN",
+    "Calling Code": "216",
+    "country_id": 231
+  },
+  {
+    "Name": "Turkey",
+    "Currencies Code": "TRY",
+    "Flag": "data/tur.svg",
+    "Alpha2 Code": "TR",
+    "Calling Code": "90",
+    "country_id": 232
+  },
+  {
+    "Name": "Turkmenistan",
+    "Currencies Code": "TMT",
+    "Flag": "data/tkm.svg",
+    "Alpha2 Code": "TM",
+    "Calling Code": "993",
+    "country_id": 233
+  },
+  {
+    "Name": "Turks and Caicos Islands",
+    "Currencies Code": "USD",
+    "Flag": "data/tca.svg",
+    "Alpha2 Code": "TC",
+    "Calling Code": "1649",
+    "country_id": 234
+  },
+  {
+    "Name": "Tuvalu",
+    "Currencies Code": "AUD",
+    "Flag": "data/tuv.svg",
+    "Alpha2 Code": "TV",
+    "Calling Code": "688",
+    "country_id": 235
+  },
+  {
+    "Name": "Uganda",
+    "Currencies Code": "UGX",
+    "Flag": "data/uga.svg",
+    "Alpha2 Code": "UG",
+    "Calling Code": "256",
+    "country_id": 236
+  },
+  {
+    "Name": "Ukraine",
+    "Currencies Code": "UAH",
+    "Flag": "data/ukr.svg",
+    "Alpha2 Code": "UA",
+    "Calling Code": "380",
+    "country_id": 237
+  },
+  {
+    "Name": "United Arab Emirates",
+    "Currencies Code": "AED",
+    "Flag": "data/are.svg",
+    "Alpha2 Code": "AE",
+    "Calling Code": "971",
+    "country_id": 238
+  },
+  {
+    "Name": "United Kingdom of Great Britain and Northern Ireland",
+    "Currencies Code": "GBP",
+    "Flag": "data/gbr.svg",
+    "Alpha2 Code": "GB",
+    "Calling Code": "44",
+    "country_id": 239
+  },
+  {
+    "Name": "United States of America",
+    "Currencies Code": "USD",
+    "Flag": "data/usa.svg",
+    "Alpha2 Code": "US",
+    "Calling Code": "1",
+    "country_id": 240
+  },
+  {
+    "Name": "Uruguay",
+    "Currencies Code": "UYU",
+    "Flag": "data/ury.svg",
+    "Alpha2 Code": "UY",
+    "Calling Code": "598",
+    "country_id": 241
+  },
+  {
+    "Name": "Uzbekistan",
+    "Currencies Code": "UZS",
+    "Flag": "data/uzb.svg",
+    "Alpha2 Code": "UZ",
+    "Calling Code": "998",
+    "country_id": 242
+  },
+  {
+    "Name": "Vanuatu",
+    "Currencies Code": "VUV",
+    "Flag": "data/vut.svg",
+    "Alpha2 Code": "VU",
+    "Calling Code": "678",
+    "country_id": 243
+  },
+  {
+    "Name": "Venezuela (Bolivarian Republic of)",
+    "Currencies Code": "VEF",
+    "Flag": "data/ven.svg",
+    "Alpha2 Code": "VE",
+    "Calling Code": "58",
+    "country_id": 244
+  },
+  {
+    "Name": "Viet Nam",
+    "Currencies Code": "VND",
+    "Flag": "data/vnm.svg",
+    "Alpha2 Code": "VN",
+    "Calling Code": "84",
+    "country_id": 245
+  },
+  {
+    "Name": "Wallis and Futuna",
+    "Currencies Code": "XPF",
+    "Flag": "data/wlf.svg",
+    "Alpha2 Code": "WF",
+    "Calling Code": "681",
+    "country_id": 246
+  },
+  {
+    "Name": "Western Sahara",
+    "Currencies Code": "MAD",
+    "Flag": "data/esh.svg",
+    "Alpha2 Code": "EH",
+    "Calling Code": "212",
+    "country_id": 247
+  },
+  {
+    "Name": "Yemen",
+    "Currencies Code": "YER",
+    "Flag": "data/yem.svg",
+    "Alpha2 Code": "YE",
+    "Calling Code": "967",
+    "country_id": 248
+  },
+  {
+    "Name": "Zambia",
+    "Currencies Code": "ZMW",
+    "Flag": "data/zmb.svg",
+    "Alpha2 Code": "ZM",
+    "Calling Code": "260",
+    "country_id": 249
+  },
+  {
+    "Name": "Zimbabwe",
+    "Currencies Code": "BWP",
+    "Flag": "data/zwe.svg",
+    "Alpha2 Code": "ZW",
+    "Calling Code": "263",
+    "country_id": 250
+  }
+]

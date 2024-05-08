@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#2c3e50"
+    android:showOnLockScreen="true"
+    android:keepScreenOn="true">
+
+    <RelativeLayout
+        android:id="@+id/logoLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher_round"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/ic_launcher_round"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/icon_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/logoLayout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp">
+
+                <ImageView
+                    android:id="@+id/profileImage"
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    android:background="@mipmap/ic_launcher_round"
+                    android:textColor="#fff"
+                    android:textSize="44sp"/>
+                <Button
+                    android:id="@+id/icon_text"
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    android:background="@mipmap/ic_launcher_round"
+                    android:textColor="#fff"
+                    android:textSize="44sp"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/callerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/callStatus"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="Caller"
+                android:layout_marginTop="15dp"
+                />
+
+            <TextView
+                android:id="@+id/callType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Incoming Call"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/callActionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="75dp"
+            android:paddingBottom="90dp"
+            android:gravity="bottom" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/reject_call_btn"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:scaleType="fitCenter"
+                    android:background="@null"
+                    android:src="@mipmap/ic_launcher_round"
+                    android:layout_alignParentLeft="true"
+                    />
+
+                <ImageButton
+                    android:id="@+id/accept_call_btn"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/ic_launcher_round" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "965592363246",
+    "project_id": "vidsocial-27ba7",
+    "storage_bucket": "vidsocial-27ba7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965592363246:android:d93ade700ce13ae4e9c3ff",
+        "android_client_info": {
+          "package_name": "com.vidsocial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOWh6vxm-0Gt1eyN0CI2Z7CoJfO15lqHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
